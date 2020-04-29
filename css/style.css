@@ -1,12 +1,23 @@
 body {
   color: red;
   font-family: cursive;
-  text-align: center;
+  text-align: left;
+}
+
+.section-nav {
+  background-color: royalblue;
+  height: 50px;
+  width: 100%;
+}
+
+.title-nav {
+  color: white;
+  margin: 0 auto;
 }
 
 .container {
   border: solid 1px black;
   border-radius: 5px;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 }

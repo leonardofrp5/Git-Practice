@@ -1,23 +1,32 @@
 body {
-  color: red;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .section-nav {
+  align-items: center;
   background-color: royalblue;
-  height: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 10px;
+  height: 70px;
   width: 100%;
 }
 
 .title-nav {
   color: #FFF;
-  margin: 0 auto;
+  text-align: left;
+}
+
+.img-header {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
 }
 
 .container {
-  border: solid 1px black;
   border-radius: 5px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
